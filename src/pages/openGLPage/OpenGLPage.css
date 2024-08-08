@@ -1,0 +1,66 @@
+.video {
+    padding: 20px;
+    width: 290px;
+    text-align: center;
+}
+
+td {
+    box-sizing: border-box;
+    border-bottom: #4A5A96 solid;
+
+    border-width: 1px;
+    padding: 0px;
+}
+
+tr {
+    border:solid #4A5A96;
+}
+
+table {
+    width: 100%;
+}
+
+.videoDescription {
+    padding: 20px;
+    align-content:start;
+}
+
+* {
+    background-color: #B0E9FA;
+    font-family:Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+ol {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p > * {
+    background-color: white;
+}
+
+ol > * {
+    background-color: white;
+}
+
+h1, h2, h3 {
+    border-radius: 5px;
+    background-color: #4A5A96;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    
+}
+
+.normaltexta {
+    text-decoration: none;
+    color: black;
+}
