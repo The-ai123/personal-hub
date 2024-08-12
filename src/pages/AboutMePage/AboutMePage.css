@@ -1,0 +1,47 @@
+.personalLink {
+    padding: 10px;
+    margin-left: 2em;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+
+    width:fit-content;
+   
+}
+
+.personalLink > a {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    transition-duration: .1s;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.personalLink > a > *{
+    text-decoration: none;
+    background-color: white;
+    color:black;
+
+}
+
+.aboutmepageparagraph {
+    margin-left: 20px;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+.personalLink > * > .personalLinkHoverIcon {
+    opacity:0;
+    background-color: white;
+    transition-duration: .3s;
+    padding-left: 5px;
+}
+
+.personalLink:hover > * > * {
+    opacity: 1;
+}
+
+.personalLink:hover > a {
+    text-decoration-color: black;
+}

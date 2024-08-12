@@ -1,10 +1,11 @@
 import './OpenGLPage.css'
-
+import { FaGithub } from "react-icons/fa";
 
 function OpenGLPage() {
 
     return (
       <>
+        <a href="https://github.com/The-ai123/cubeworld"><FaGithub/>GitHub Repository</a>
         <center><h1>Non-Euclidean OpenGL Exploration</h1></center>
         <h2>Goal</h2>
         <p>The broad goal of this project was to get a foothold into understanding OpenGL, with the end goal of non-euclidean rendering to provide some direction I wanted to go. 
@@ -36,7 +37,7 @@ function OpenGLPage() {
 
         <p>A side note about this, is that we actually <i>do</i> live in a non-euclidean universe, however this is only noticeable
         on large scales or at extreme regions. This aspect of our universe is what causes gravity. For example, because space is curved two parallel light
-        rays will actually intersect in gravity dense regions such as black holes</p>
+        rays will actually intersect in regions of intense gravity such as black holes.</p>
 
         <h2>Process</h2>
         <h3>Part One: Early Experimentation</h3>

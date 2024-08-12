@@ -1,6 +1,8 @@
 import "./AboutMePage.css"
 import { FaFilePdf } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function AboutMePage(){
 
@@ -8,14 +10,14 @@ function AboutMePage(){
     return(
         <>
             <h2>Hello!</h2>
-            <p>My name is Ada and I am studying Computer Engineering at RIT.</p>
+            <p class="aboutmepageparagraph">My name is Ada and I am studying Computer Engineering at RIT.</p>
             <h3>Personal Links</h3>
-            <ul>
+            <ul class="personalLinks">
                 <li class="personalLink">
-                    <a  href="./Files/Resume.pdf" download><FaFilePdf />Resume</a>
+                    <a  href="./Files/Resume.pdf" download><FaFilePdf /> Resume <FaDownload class="personalLinkHoverIcon"></FaDownload></a>
                 </li>
                 <li class="personalLink">
-                    <a  href="https://github.com/The-ai123" download><FaGithub />GitHub</a>
+                    <a  href="https://github.com/The-ai123" download><FaGithub /> GitHub <FaExternalLinkAlt class="personalLinkHoverIcon"/></a>
                 </li>
             </ul>
             
