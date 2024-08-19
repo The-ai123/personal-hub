@@ -7,6 +7,7 @@ function AboutThisWebsitePage(){
 
     return(
         <>
+            <div class="defaultBackground"></div>
             <center><h1>About This Website</h1></center>
             <h2>Technology Used</h2>
             <p>The frontend of the website is primarily made using react. React is a library that provides tools to make certain aspects 

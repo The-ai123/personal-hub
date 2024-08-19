@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import OpenGLPage from './pages/openGLPage/OpenGLPage.jsx'
 import AboutMePage from './pages/AboutMePage/AboutMePage.jsx'
+import AboutThisWebsitePage from './pages/AboutThisWebsitePage/AboutThisWebsitePage.jsx'
+import IdleGTNHPage from './pages/IdleGTNHPage/IdleGTNHPage.jsx'
 import Header from './header/Header.jsx'
-//import './App.css'
+import './App.css'
 
 function App() {
 
@@ -15,6 +17,10 @@ function App() {
       starterPageElement = <AboutMePage/>;
     }else if(page == "OpenGLPage"){
       starterPageElement = <OpenGLPage/>;
+    }else if(page == "AboutThisWebsitePage"){
+      starterPageElement = <AboutThisWebsitePage/>;
+    }else if(page == "IdleGTNHPage"){
+      starterPageElement = <IdleGTNHPage/>;
     }
   }
 
@@ -39,6 +45,10 @@ function App() {
       setCurrentPage(<AboutMePage/>)
     }else if(page == "OpenGLPage"){
       setCurrentPage(<OpenGLPage/>)
+    }else if(page == "AboutThisWebsitePage"){
+      setCurrentPage(<AboutThisWebsitePage/>)
+    }else if(page == "IdleGTNHPage"){
+      setCurrentPage(<IdleGTNHPage/>)
     }
   }
 
@@ -48,6 +58,10 @@ function App() {
   return (
     <>
     <Header setPage={updatePage}/>
+    <div class="appBreaks">
+    <br></br><br></br><br></br><br></br><br></br><br></br>
+    </div>
+    
     {currentPage}
     </>
   )

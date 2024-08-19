@@ -5,6 +5,7 @@ function OpenGLPage() {
 
     return (
       <>
+        <div class="defaultBackground"></div>
         <a href="https://github.com/The-ai123/cubeworld"><FaGithub/>GitHub Repository</a>
         <center><h1>Non-Euclidean OpenGL Exploration</h1></center>
         <h2>Goal</h2>

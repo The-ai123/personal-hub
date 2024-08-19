@@ -13,10 +13,9 @@ function Header(props) {
       <div class="bar">
         <div class="nameBox">adasprojects.net</div>
         <div onClick={() => sendData("AboutMePage")} class="button">About Me</div>
-        <div class="button">About This Website</div>
+        <div onClick={() => sendData("AboutThisWebsitePage")} class="button">About This Website</div>
         <div onClick={() => sendData("OpenGLPage")} class="button">OpenGL Projects</div>
       </div>
-      <br></br>
       </>
     )
   }

@@ -26,7 +26,7 @@ table {
 }
 
 * {
-    background-color: #B0E9FA;
+    
     font-family:Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -34,6 +34,8 @@ p {
     background-color: white;
     border-radius: 5px;
     padding: 5px;
+    margin-right: 5%;
+    margin-left:3%;
 }
 
 ol {
@@ -41,6 +43,8 @@ ol {
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: 5%;
+    margin-left:3%;
 }
 
 p > * {
@@ -57,10 +61,21 @@ h1, h2, h3 {
     color: white;
     width: fit-content;
     padding: 5px;
+    margin-left:3%
     
 }
 
 .normaltexta {
     text-decoration: none;
     color: black;
+}
+
+.defaultBackground {
+    background-color: #B0E9FA;
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom:0px;
+    z-index: -1;
 }

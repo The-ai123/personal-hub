@@ -29,6 +29,8 @@
     margin-left: 20px;
     max-width: fit-content;
     padding: 10px;
+    margin-right: 5%;
+    margin-left:3%;
 }
 
 .personalLink > * > .personalLinkHoverIcon {
