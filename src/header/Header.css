@@ -1,51 +1,71 @@
 
-
-.bar {
-    color: #4A5A96;
-    text-shadow: black;
-    width:100%;
-    height: 8vh;
-    background-color: #B0E9FA;
-    position: fixed;
-    top: 0%;
-    border-bottom: solid black;
-    left: 0%;
-    box-sizing: border-box;
-}
-
-
+/* Website Name */
 .nameBox {
-    box-sizing: border-box;
-    display: inline-table;
-    width:30%;
-    height: 95%;
-    text-align: left;
-    padding-top:.25em;
-    padding-left: 10px;
-    font-size: 2em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-.button {
-    display: inline-table;
+/* General Header Styles */
+.header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background: linear-gradient(90deg, #4A5A96, #B0E9FA);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
     box-sizing: border-box;
-    width:20%;
-    height: 100%;
+    overflow: hidden; /* Prevent any unwanted scrolling */
+}
+
+/* Navigation Menu */
+.nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap; /* Ensure buttons stay in one line */
+    overflow-x: auto; /* In case buttons overflow */
+}
+
+/* Navigation Buttons */
+.navButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
     text-align: center;
-    padding-top:.75em;
-    transition-duration: .2s;
-    font-size: 1.5em;
-    cursor:pointer;
-    text-decoration: underline;
-    text-decoration-color: #4a5a9600;
-    border-radius: 50%;
-    
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
 }
 
-.button:hover {
-    background-color:rgba(255, 255, 255, 0.197);
-    
-    text-decoration-color: #4A5A96;
-    
+/* Fixing the Hover Issue */
+.navButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px); /* Moves the button up slightly without resizing */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        gap: 5px;
+    }
+
+    .navButton {
+        font-size: 0.9em;
+        padding: 6px 12px;
+    }
+}

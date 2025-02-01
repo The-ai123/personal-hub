@@ -67,7 +67,9 @@
 
 .GTNHProductionTierNavigation {
     display:flex;
-    text-align: center;
+    padding: 1%;
+
+    background-color: #3a4c7a;
 }
 
 .GTNHProductionTierNavigationButton {
@@ -75,4 +77,32 @@
     display:flex;
     border: solid black;
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    justify-content: center;
+    color: #040c24;
+    background-color: #9da5bd;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.GTNHExplorationExploreButton {
+    width:20%;
+    height:10%;
+    border: solid black;
+    display: inline-block;
+    text-align: center;
+    padding:.5em;
+}
+
+.GTNHExplorationOverworldMenu {
+    padding: 10px;
+    height: 100%;
+}
+
+.GTNHExplorationTop {
+
 }
