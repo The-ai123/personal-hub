@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
-    background: linear-gradient(90deg, #4A5A96, #B0E9FA);
+    background:  #4A5A96;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
